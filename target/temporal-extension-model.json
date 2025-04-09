@@ -1,7 +1,7 @@
 {
   "name": "Keeper Security",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "vendor": "Mulesoft",
   "supportedJavaVersions": [
     "1.8",
@@ -13,7 +13,7 @@
     "prefix": "keeper-security",
     "namespace": "http://www.mulesoft.org/schema/mule/keeper-security",
     "schemaLocation": "http://www.mulesoft.org/schema/mule/keeper-security/current/mule-keeper-security.xsd",
-    "schemaVersion": "1.0.0",
+    "schemaVersion": "1.0.3",
     "xsdFileName": "mule-keeper-security.xsd"
   },
   "resources": [],
@@ -282,7 +282,7 @@
   "artifactCoordinates": {
     "artifact id": "ksm-connector",
     "group id": "com.custom",
-    "version": "1.0.0"
+    "version": "1.0.3"
   },
   "notifications": [],
   "errors": [],

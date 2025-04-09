@@ -1,5 +1,5 @@
 {
-  "minMuleVersion": "4.4.0",
+  "minMuleVersion": "4.9.0",
   "requiredProduct": "MULE",
   "extensionModelLoaderDescriptor": {
     "id": "crafted",
@@ -7,12 +7,12 @@
       "type": "com.ksm.api.KeeperConfigPropertiesExtensionLoadingDelegate"
     }
   },
-  "name": "indeed-vault",
+  "name": "ksm-connector",
   "classLoaderModelLoaderDescriptor": {
     "id": "mule",
     "attributes": {
       "exportedPackages": [
-        "com.ksm."
+        "com.ksm.api"
       ],
       "exportedResources": [
         "META-INF/services/org.mule.runtime.config.api.dsl.model.properties.ConfigurationPropertiesProviderFactory"

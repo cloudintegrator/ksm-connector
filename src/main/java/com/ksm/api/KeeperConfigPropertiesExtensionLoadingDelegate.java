@@ -31,7 +31,7 @@ public class KeeperConfigPropertiesExtensionLoadingDelegate implements Extension
                 throw new RuntimeException("Failed to initialize the extension when trying to declare `supportingJavaVersions` for the extension.", var8);
             }
         }
-        ConfigurationDeclarer configurationDeclarer = extensionDeclarer.named("Keeper Security").withCategory(Category.SELECT).onVersion("1.0.0").fromVendor("Mulesoft").withConfig("config");
+        ConfigurationDeclarer configurationDeclarer = extensionDeclarer.named("Keeper Security").withCategory(Category.SELECT).onVersion("1.0.3").fromVendor("Mulesoft").withConfig("config");
 
         ParameterGroupDeclarer defaultParameterGroup = configurationDeclarer.onDefaultParameterGroup();
         defaultParameterGroup.withRequiredParameter("Host").ofType(BaseTypeBuilder.create(MetadataFormat.JAVA).stringType().build());

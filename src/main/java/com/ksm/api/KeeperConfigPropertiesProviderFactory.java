@@ -2,6 +2,7 @@ package com.ksm.api;
 
 import java.util.function.UnaryOperator;
 
+import com.ksm.internal.KeeperConfigPropertiesProvider;
 import org.mule.runtime.api.component.ComponentIdentifier;
 import org.mule.runtime.ast.api.ComponentAst;
 import org.mule.runtime.config.api.dsl.model.ConfigurationParameters;
@@ -19,11 +20,8 @@ public class KeeperConfigPropertiesProviderFactory implements ConfigurationPrope
 
     @Override
     public ConfigurationPropertiesProvider createProvider(ConfigurationParameters parameters, ResourceProvider externalResourceProvider) {
-        return null;
+        KeeperConfigPropertiesProvider keeperConfigPropertiesProvider=new KeeperConfigPropertiesProvider(null,externalResourceProvider);
+        return keeperConfigPropertiesProvider;
     }
 
-    @Override
-    public org.mule.runtime.properties.api.ConfigurationPropertiesProvider createProvider(ComponentAst providerElementDeclaration, UnaryOperator<String> localResolver, org.mule.runtime.properties.api.ResourceProvider externalResourceProvider) {
-        return ConfigurationPropertiesProviderFactory.super.createProvider(providerElementDeclaration, localResolver, externalResourceProvider);
-    }
 }
