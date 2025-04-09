@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Created-By: Maven JAR Plugin 3.4.1
+Build-Jdk-Spec: 17
+Specification-Title: Keeper Security Extension
+Specification-Version: 1.0
+Specification-Vendor: MuleSoft, Inc.
+Implementation-Title: Keeper Security Extension
+Implementation-Version: 1.0.0
+Implementation-Vendor: MuleSoft, Inc.
+Build-Date: 2025-04-09-12:30:56
+Target-Java-Release-Version: 17
+

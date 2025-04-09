@@ -1,0 +1,3 @@
+com\ksm\api\KeeperConfigPropertiesExtensionLoadingDelegate.class
+com\ksm\internal\KeeperConfigPropertiesProvider.class
+com\ksm\api\KeeperConfigPropertiesProviderFactory.class
